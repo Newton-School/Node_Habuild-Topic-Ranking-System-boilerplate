@@ -9,9 +9,9 @@ const router = express.Router();
 
 /* 
 For testing purpose only
-router.get('/u', getAllUsers);
-router.get('/r', getAllRanks);
-router.get('/t', getAllTopics);
+router.get('/users', getAllUsers);
+router.get('/rankings', getAllRanks);
+router.get('/topics', getAllTopics);
 */
 
 router.get('/', getLoggedInUser, getAssessments);
